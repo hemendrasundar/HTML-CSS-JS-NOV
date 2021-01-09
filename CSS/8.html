@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Borders</title>
+
+        <style>
+
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin-bottom: 500px;
+            }
+
+            div{
+                 background-color: aqua;
+                 text-align: center;
+                 padding: 20px;
+                 font-size: 25px;
+                 width: 800px;
+
+            }
+
+            #border-all{
+                /* border-width: 10px;
+                border-style: double;
+                border-color: navy; */
+                border:10px dashed navy;
+            }
+
+            #border-single{
+                border-left: 20px solid navy;
+            }
+            #border-rounded{
+               
+                border:10px solid navy ;
+                border-radius: 30px;
+            }
+            #border-rounded-two{
+                border:10px solid navy ;
+                border-radius: 50px 0 50px 0 ;
+            }
+            #circle{
+
+                height: 400px;
+                width:  400px;
+                box-shadow: 0 0 10px black;
+                border-radius: 50%;
+                background-color: blueviolet;
+                border-left: 10px solid red;
+                border-right: 10px solid orange;
+                border-top: 10px solid yellow;
+                border-bottom: 10px solid greenyellow;
+            }
+            #frame{
+
+                height: 320px;
+                width:  560px;
+                box-shadow: 0 0 10px black;
+                border-radius: 10%;
+                background-color: blueviolet;
+                border-left: 10px solid red;
+                border-right: 10px solid orange;
+                border-top: 10px solid yellow;
+                border-bottom: 10px solid greenyellow;
+}
+        </style>
+        </head>
+        <body>
+
+
+
+            <h2> Border All Sides</h2>
+            <div id="border-all">
+                <h2>Border All Sides</h2>
+            </div>
+            <h2> Border Single Side</h2>
+            <div id="border-single">
+                <h2>Border Single Side</h2>
+            </div>
+            <h2> Border Rounded All</h2>
+            <div id="border-rounded">
+                <h2>Border Rounded All</h2>
+            </div>
+            <h2> Border Rounded Two</h2>
+            <div id="border-rounded-two">
+                <h2>Border Rounded Two</h2>
+            </div>
+            <h2> Circle</h2>
+            <section id="circle">
+
+            </section>
+
+            <h2> Frame</h2>
+            <section id="frame">
+               
+            </section>
+
+            <h2>YouTube Video With Frame</h2>
+            <iframe id="frame"width="560" height="315" src="https://www.youtube.com/embed/KGByhnih5Uc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </body>
+        </html>

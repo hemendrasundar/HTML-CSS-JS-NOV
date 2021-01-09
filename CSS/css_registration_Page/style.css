@@ -1,0 +1,45 @@
+.register-div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    width: 300px;
+    height: 400px;
+    color: white;
+    padding: 15px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+}
+
+.register-div h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.form-group label{
+    display: block;
+    margin: 10px 0;
+}
+
+.form-control{
+    font-size: 18px;
+    height: 35px;
+    width: 290px;
+    outline: none;
+}
+
+.form-control:focus{
+    background-color: rgb(245, 135, 177);
+}
+
+.register-btn{
+    margin-top: 15px;
+    background: linear-gradient(45deg,deeppink,blueviolet);
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    width: 290px;
+    border: none;
+    box-shadow: 0 5px 10px black;
+}
+

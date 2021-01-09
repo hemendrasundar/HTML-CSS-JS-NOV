@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mixed Selectors</title>
+
+        <style>
+
+        ol li{
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             padding: 10px;
+             color: white;
+        }
+        
+         /* ol li:first-child{
+             background-color: blueviolet;
+         }
+         ol li:nth-child(3){
+             background-color: blueviolet;
+         }
+         ol li:last-child{
+             background-color: blueviolet;
+         } */
+         ol li:nth-child(even){
+             background-color: blueviolet;
+         }
+         ol li:nth-child(odd){
+             background-color: chocolate;
+         }
+        </style>
+    </head>
+    
+
+    <body>
+
+        <ol>
+            <li >html</li>
+            <li >css</li>
+            <li >js</li>
+            <li>jquery</li>
+            <li>bootstrap</li>
+        </ol>
+
+       
+   
+    </body>
+
+</html>

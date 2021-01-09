@@ -1,0 +1,14 @@
+setup:
+
+=>vscode -> visual studio code  => https://code.visualstudio.com/
+=>node -> https://nodejs.org/en/
+=>live-server -> npm install -g live-server
+
+-> HTML -> Hyper Text Markup Language
+-> CSS  -> Cascadian Style Sheet
+-> JS   -> Javascript
+
+
+ FAVICON , TITLE 
+
+  For Running Live-Server =>  live-server --port=8080

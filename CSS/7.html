@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Backgrounds</title>
+
+        <style>
+            body{
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               margin-bottom: 500px;
+            }
+            #bg-color{
+                background-color: aqua;
+            }
+
+            #bg-image{
+
+                box-shadow: 0 0 10px black;
+                padding: 15px;
+                width: 500px;
+                color: blanchedalmond;
+                background-image: url("img/workspace.jpg");
+            }
+            #bg-repeat{
+
+box-shadow: 0 0 10px black;
+padding: 15px;
+width: 500px;
+height: 500px;
+color: blanchedalmond;
+background-color: blue;
+background-image: url("img/ind.png");
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+
+#bg-attachment{
+
+box-shadow: 0 0 10px black;
+padding: 15px;
+width: 1200px;
+height: 400px;
+color: blanchedalmond;
+
+background: brown url("img/ind.png") no-repeat scroll center;
+
+}
+
+#bg-size{
+
+box-shadow: 0 0 10px black;
+padding: 15px;
+width: 500px;
+color: blanchedalmond;
+background-image: url("img/workspace.jpg");
+background-size: cover;
+
+}
+
+
+        </style>
+    </head>
+    
+
+    <body>
+        <h2>background color</h2>
+     <div id="bg-color">
+         <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, aliquid.</h1>
+     </div>
+
+     <h2>background Image</h2>
+     <div id="bg-image">
+         <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, aliquid.</h1>
+     </div>
+
+     <h2>background repeat</h2>
+     <div id="bg-repeat">
+        
+     </div>
+
+
+     <h2>background attachment</h2>
+     <div id="bg-attachment">
+        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, aliquid.</h1>
+     </div>
+       
+     <h2>background Size</h2>
+     <div id="bg-size">
+         <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, aliquid.</h1>
+     </div>
+
+    </body>
+
+</html>

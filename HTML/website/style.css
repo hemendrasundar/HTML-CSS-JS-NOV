@@ -1,0 +1,37 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(45deg,coral,lightgreen,coral);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+}
+h2{
+  background: linear-gradient(45deg,red,black,red);
+  color: whitesmoke;
+  padding: 15px;
+  width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  
+}
+table{
+    width: 100%;
+}
+
+img{
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+iframe{
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  margin-bottom: 20px;
+}
